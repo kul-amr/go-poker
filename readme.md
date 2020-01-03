@@ -18,8 +18,16 @@ Version 1 (without suit):
     Rank for hand KKKKQ is : four-of-a-kind and cards ordered as : ["K" "K" "K" "K" "Q"] 
     Rank for hand KKQQ2 is : two-pairs and cards ordered as : ["K" "K" "Q" "Q" "2"] 
     First hand wins!
+    
+    go run run.go 8888Q TTTT9
+    Rank for hand 8888Q is : four-of-a-kind and cards ordered as : ["8" "8" "8" "8" "Q"] 
+    Rank for hand TTTT9 is : four-of-a-kind and cards ordered as : ["T" "T" "T" "T" "9"] 
+    Second hand wins!
 
    IF incorrect values passed in hand or incorrect number of parameters then will print error message.
     
     go run run.go KKKKQ KKQQ
     Invalid hand/s - check the arguments passed
+    
+    go run run.go 8888Q
+    Invalid Arguments
